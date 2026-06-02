@@ -3,21 +3,18 @@ langchain-core
 langchain-community
 langchain-text-splitters
 
-
 langchain-openai
-openai
 
 langchain-huggingface
 sentence-transformers
+transformers
 
 langchain-groq 
-groq
 
 faiss-cpu
 
 langchain-chroma  
 chromadb
-
 
 pypdf
 lxml
@@ -40,3 +37,30 @@ opik
 python-dotenv
 jq 
 unstructured
+datasets
+
+docling
+docling-core[chunking]
+langchain-docling 
+
+unstructured
+langchain-unstructured
+unstructured-inference
+
+llama-parse
+llama-index
+llama-cloud-services
+llama-index-vector-stores-chroma
+llama-index-embeddings-openai
+llama-index-llms-openai
+nest-asyncio
+
+openpyxl
+pdfminer.six
+pi-heif
+
+python-docx
+python-pptx
+Pillow
+
+vectorize-client

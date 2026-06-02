@@ -220,3 +220,5 @@ __marimo__/
 
 faiss_index_notebooks/*
 chroma_db_notebook/*
+
+sample_documents/*

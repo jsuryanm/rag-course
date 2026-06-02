@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Document for Docling</title>
+</head>
+<body>
+    <header>
+        <h1>Introduction to Document Parsing</h1>
+        <p>A comprehensive guide to understanding document parsing techniques</p>
+    </header>
+
+    <main>
+        <section id="overview">
+            <h2>1. Overview</h2>
+            <p>Document parsing is the process of analyzing and extracting structured information from various document formats. This includes PDFs, Word documents, HTML pages, and more.</p>
+
+            <h3>1.1 Key Benefits</h3>
+            <ul>
+                <li>Automated data extraction</li>
+                <li>Structured content analysis</li>
+                <li>Integration with AI/ML pipelines</li>
+                <li>Support for multiple formats</li>
+            </ul>
+        </section>
+
+        <section id="features">
+            <h2>2. Core Features</h2>
+            <p>Modern document parsers offer a variety of features:</p>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Description</th>
+                        <th>Use Case</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>OCR Support</td>
+                        <td>Optical Character Recognition for scanned documents</td>
+                        <td>Scanned PDFs, Images</td>
+                    </tr>
+                    <tr>
+                        <td>Table Extraction</td>
+                        <td>Structured table data extraction</td>
+                        <td>Financial reports, Data tables</td>
+                    </tr>
+                    <tr>
+                        <td>Layout Analysis</td>
+                        <td>Understanding document structure</td>
+                        <td>Academic papers, Legal documents</td>
+                    </tr>
+                    <tr>
+                        <td>Image Processing</td>
+                        <td>Extract and classify images</td>
+                        <td>Technical manuals, Presentations</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="applications">
+            <h2>3. Applications in RAG Systems</h2>
+            <p>Retrieval-Augmented Generation (RAG) systems benefit significantly from proper document parsing:</p>
+
+            <ol>
+                <li><strong>Knowledge Base Creation:</strong> Convert documents into searchable chunks</li>
+                <li><strong>Semantic Search:</strong> Enable meaning-based document retrieval</li>
+                <li><strong>Question Answering:</strong> Provide accurate answers from document context</li>
+                <li><strong>Document Summarization:</strong> Generate concise summaries</li>
+            </ol>
+
+            <blockquote>
+                "Effective document parsing is the foundation of any successful RAG implementation."
+            </blockquote>
+        </section>
+
+        <section id="code-example">
+            <h2>4. Code Example</h2>
+            <p>Here's a simple example of using a document parser:</p>
+            <pre><code>
+from docling.document_converter import DocumentConverter
+
+# Initialize the converter
+converter = DocumentConverter()
+
+# Convert a document
+result = converter.convert("document.pdf")
+
+# Export to markdown
+markdown = result.document.export_to_markdown()
+print(markdown)
+            </code></pre>
+        </section>
+    </main>
+
+    <footer>
+        <p>Sample document for Docling demonstration purposes.</p>
+        <p>Created for the Document Parsing Tutorial.</p>
+    </footer>
+</body>
+</html>
