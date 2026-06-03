@@ -64,3 +64,4 @@ python-pptx
 Pillow
 
 vectorize-client
+deepeval
