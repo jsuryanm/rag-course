@@ -65,3 +65,8 @@ Pillow
 
 vectorize-client
 deepeval
+
+pydantic
+pydantic-settings
+fastapi
+uvicorn[standard]
